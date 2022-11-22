@@ -700,6 +700,11 @@ footer {
   border-radius: 4px;
   background-color: #f5f4fa;
   border: none;
+
+  transition-property: color;
+  transition-property: background-color;
+  transition-duration: 550ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item-btn {
@@ -715,9 +720,8 @@ footer {
   background-color: var(--color-logo-header-hover);
   color: #ffffff;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 10%),
-    0px 2px 1px 0px rgba(0, 0, 0, 8%), 0px 2px 2px 0px rgba(0, 0, 0, 12%);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  0px 2px 1px 0px rgba(0, 0, 0, 8%), 0px 2px 2px 0px rgba(0, 0, 0, 12%);
+  }
 
 /* Proects */
 
